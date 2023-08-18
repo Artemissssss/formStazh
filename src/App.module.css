@@ -1,0 +1,293 @@
+.navSect {
+    width: 79%;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1Text {
+    width: 105px;
+    color: #000;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.h1TextNigth {
+    width: 105px;
+    color: #FFF;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pointsList {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pointsItem {
+    padding: 4px 26px;
+    border-radius: 100px;
+    background: #5BBA2F;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+    transition: 0.5s;
+}
+
+.pointsItem:nth-of-type(2) {
+    background: #2FBABA;
+}
+
+.pointsItem:nth-of-type(3) {
+    background: #2F67BA;
+}
+
+.pointsItem:nth-of-type(4) {
+    background: #5B2FBA;
+}
+
+.pointsItem:nth-of-type(5) {
+    background: #BA2F8B;
+}
+
+.pointsItem:nth-of-type(6) {
+    background: #BA502F;
+}
+
+.pointsItemCh {
+    padding: 4px 26px;
+    border-radius: 100px;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    transition: 0.5s;
+}
+
+.pointsItemText {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0, 5s;
+}
+
+.pointsItemTextCh {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.darkTheme {
+    width: 105px;
+    height: 52px;
+    background-image: url("../public/img/sun.png");
+    background-size: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ligthTheme {
+    height: 52px;
+    width: 105px;
+    background-image: url("../public/img/night.png");
+    background-size: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form {
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formItem {
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.formItemInputWrap {
+    width: 946px;
+    margin: 0 auto;
+}
+
+.formItemWrapDiv {
+    width: 100%;
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.formItemLabel {
+    height: 29px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.formItemWrapBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formItemCheck {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.formItemInput {
+    caret-color:black;
+    width: 870px;
+    height: 80px;
+    padding: 23px 36px;
+    border: 2px solid #A6A6A6;
+    border-radius: 20px;
+    background: transparent;
+    color: #7B7B7B;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 1;
+}
+
+.formItemInput:focus {
+    outline: none;
+    border: 2px solid #1D1D1D;
+}
+
+.selectTimeWrap{
+    height: 120px;
+}
+
+.selectTime {
+    caret-color:transparent;
+    width: 100%;
+    padding: 6px 10px 6px 20px;
+    gap: 4px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    color: #A6A6A6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: transparent;
+    cursor: pointer;
+}
+
+.selectTimeCh {
+    width: 100%;
+    padding: 6px 0 6px 0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: transparent;
+    opacity: 0;
+}
+
+.selectTimeChItem {
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border-top: 1px solid rgba(217, 217, 217, 0.50);
+}
+
+.selectTime:focus {
+    outline: none;
+    border-bottom: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #A6A6A6;
+    padding-bottom: 0;
+}
+
+.selectTime:focus+.selectTimeCh {
+opacity: 1;
+}
+.submitWrap {
+    width: 946px;
+    height: 80px;
+    position: absolute;
+}
+
+.submitForm {
+    width: 204px;
+    height: 80px;
+    padding: 19px 34px 18px 39px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #39CA06;
+    border: 2px solid #A6A6A6;
+    color: white;
+    position: absolute;
+    right: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.submitForm:hover {
+    border: 2px solid #39CA06;
+    background: transparent;
+    color: inherit;
+}
+
+.symbolChWrap{
+    width: 180px;
+    height: 44px;
+    position: absolute;
+z-index: -1;
+}
+
+.symbolCH{
+    position: absolute;
+    right:18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
